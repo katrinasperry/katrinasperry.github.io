@@ -38,3 +38,7 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
+
+IGNORE_FILES = ['.ipynb_checkpoints'] #Kat added to fix error message
+
+THEME = "./pelican-themes/pelican-minimal"
