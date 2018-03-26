@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-<head>
-  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
-  <link rel="icon" href="/images/my_logo.png" type="image/png">
-  <link rel="shortcut icon" href="/images/my_logo.png" type="image/png">
-  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,600italic,700,700italic|Inconsolata">
-  <link  href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <meta charset="utf-8" />
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  <meta name="author" content="Katrina Sperry">
-  <meta name="description" content="Writings by Katrina Sperry">
+		<title>Katrina Sperry</title>
 
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
 
-<meta name="keywords" content="python firsts">
+		<link rel="stylesheet" href="/theme/css/poole.css" />
+		<link rel="stylesheet" href="/theme/css/hyde.css" />
+		<link rel="stylesheet" href="/theme/css/syntax.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-  <title>
-Test Post  </title>
+		<!-- RSS -->
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+	</head>
 
-</head>
+	<body class="theme-base-0d">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
 
-<body>
-  <aside>
-    <div id="user_meta">
-      <a href="/">
-      </a>
-      <h2><a href="/">Katrina Sperry</a></h2>
-      <p></p>
-      <ul>
-      </ul>
-      <ul2>
-      </ul2>
-    </div>
-  </aside>
-
-  <main>
-    <br>
-<article>
-  <div id="article_title">
-    <h1><a href="/test-post.html">Test Post</a></h1>
-  </div>
-  <div id="article_text">
-    <style type="text/css">/*!
+			<h1>
+				<a href="/">
+					<img class="profile-picture" src="/images/headshot.jpg">
+					Katrina Sperry
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">Hi! I like data science and cats. </p>
+			<p></p>
+		</div>
+		<nav class="sidebar-nav">
+			<a class="sidebar-nav-item" href="mailto:kesperry@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			<a class="sidebar-nav-item" href="https://github.com/katrinasperry">
+				<i class="fa fa-github"></i>
+			</a>
+			<a class="sidebar-nav-item" href="https://www.linkedin.com/in/katrinasperry/">
+				<i class="fa fa-linkedin"></i>
+			</a>
+			<a class="sidebar-nav-item" href="https://twitter.com/KatrinaSperry">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a class="sidebar-nav-item" href="">
+				<i class="fa fa-feed"></i>
+			</a>
+		</nav>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">Test Post</h1>
+	<span class="post-date">Sun 25 March 2018</span>
+	<style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1017,12 +1032,143 @@ h6:hover .anchor-link {
 
 .ansi-bold { font-weight: bold; }
 </style>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="This-is-my-first-post!!!">This is my first post!!!<a class="anchor-link" href="#This-is-my-first-post!!!">¶</a></h1>
+<div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="prompt output_prompt">Out[1]:</div>
+<div class="output_text output_subarea output_execute_result">
+<pre>48</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [2]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="o">%</span><span class="k">matplotlib</span> inline
+
+<span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="prompt output_prompt">Out[2]:</div>
+<div class="output_text output_subarea output_execute_result">
+<pre>(array([2., 1., 1., 0., 2., 0., 1., 0., 0., 2.]),
+ array([ 1. ,  1.9,  2.8,  3.7,  4.6,  5.5,  6.4,  7.3,  8.2,  9.1, 10. ]),
+ &lt;a list of 10 Patch objects&gt;)</pre>
+</div>
+</div>
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+UyuR7XRS+wAAAABJRU5ErkJggg==
+" />
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1067,26 +1213,7 @@ h6:hover .anchor-link {
 }
 </script>
 
-  </div>
-  <div id="article_meta">
-    <p>Category: <a href="/category/posts.html">posts</a></p>
-    <p>Tags:
-      <a href="/tag/python-firsts.html">python firsts</a>    </p>
-  </div>
-
-
-</article>
-
-
-
-    <footer>
-<p><a href="/" class="button_accent">&larr; Back to Index</a></p>
-    </footer>
-
-    <div id="ending_message">
-      <p>Built using <a href="http://getpelican.com">Pelican</a>. <a
-      href="https://github.com/alvaroribas/pelican-minimal">Fork this theme on github!</a></p>
-    </div>
-  </main>
-</body>
+</div>
+		</div>
+	</body>
 </html>
